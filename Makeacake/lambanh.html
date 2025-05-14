@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Cake</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ffd1dc; /* Pastel pink */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #b9e4c9; /* Pastel green */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff9999;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            background-color: #e6e6fa; /* Pastel lavender */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .recipe {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .recipe img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .recipe-content {
+            flex: 1;
+        }
+        .recipe h3 {
+            color: #ff9999; /* Pastel pink */
+            margin-top: 0;
+        }
+        .contact {
+            background-color: #b9e4c9; /* Pastel green */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #ffd1dc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .contact button:hover {
+            background-color: #ff9999;
+            color: #fff;
+        }
+        footer {
+            background-color: #ffd1dc;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Make a Cake</h1>
+    </header>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#recipes">Công thức</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="container">
+        <div class="intro">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187" alt="Bánh ngọt">
+            <h2>Chào mừng đến với Make a Cake!</h2>
+            <p>Khám phá niềm vui làm bánh với những công thức đơn giản, dễ làm và đầy màu sắc. Hãy cùng tạo nên những chiếc bánh ngọt ngào cho gia đình và bạn bè!</p>
+        </div>
+        <div id="recipes">
+            <h2>Công thức nổi bật</h2>
+            <div class="recipe">
+                <img src="https://images.unsplash.com/photo-1588195533607-72f9a1f22576" alt="Cupcake Vani">
+                <div class="recipe-content">
+                    <h3>Bánh Cupcake Vani</h3>
+                    <p><strong>Nguyên liệu:</strong> Bột mì, đường, bơ, trứng, sữa, vani, bột nở.</p>
+                    <p><strong>Cách làm:</strong> Trộn bơ và đường đến khi mịn, thêm trứng và vani. Trộn bột mì và bột nở, đổ sữa xen kẽ. Nướng ở 180°C trong 20 phút.</p>
+                </div>
+            </div>
+            <div class="recipe">
+                <img src="https://images.unsplash.com/photo-1547056963-3c4f7fd81869" alt="Chocolate Lava">
+                <div class="recipe-content">
+                    <h3>Bánh Chocolate Lava</h3>
+                    <p><strong>Nguyên liệu:</strong> Sô-cô-la đen, bơ, đường, trứng, bột mì.</p>
+                    <p><strong>Cách làm:</strong> Đun chảy sô-cô-la và bơ, trộn với đường và trứng. Thêm bột mì, đổ vào khuôn. Nướng ở 200°C trong 10-12 phút.</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <h2>Liên hệ với chúng tôi</h2>
+            <form>
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Lời nhắn của bạn" rows="5" required></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Make a Cake. Tất cả quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
